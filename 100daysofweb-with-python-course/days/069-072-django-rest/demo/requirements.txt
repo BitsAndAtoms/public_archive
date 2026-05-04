@@ -1,0 +1,5 @@
+django==2.2.13
+django-registration==3.0.1
+djangorestframework
+requests
+django-rest-swagger
