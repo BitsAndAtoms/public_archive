@@ -1,0 +1,34 @@
+<%= form_with(model: message, local: true) do |form| %>
+  <% if message.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(message.errors.count, "error") %> prohibited this message from being saved:</h2>
+
+      <ul>
+      <% message.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label "Your name or alias (required)" %>
+    <%= form.text_field :name %>
+  </div>
+  
+   <div class="field">
+    <%= form.label "A website, yours or otherwise (optional)" %>
+    <%= form.text_field :web_url %>
+  </div>
+
+  <div class="field">
+    <%= form.label "Your message/note/quote/rant (required)" %>
+    <%= form.text_area :description, rows: 10, cols: 60 %>
+  </div>
+
+ 
+
+  <div class="actions">
+    <%= form.submit "Create Ripple" %>
+  </div>
+<% end %>

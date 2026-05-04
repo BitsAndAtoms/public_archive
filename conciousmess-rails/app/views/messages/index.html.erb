@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Message</th>
+      <th>Posted</th>
+      <th colspan="0"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @messages.each do |message| %>
+      <tr>
+      <td id="putonleft"><%= link_to_if !message.web_url.blank?, message.name, message.web_url %></td>
+        <td id="putonleft"><%= message.description %></td>
+        
+        <td><%= message.created_at %></td>
+        <td><%= link_to 'Show', message %></td>
+       
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Newest', messages_newest_path, method: :post %> |
+<%= link_to 'Previous 10 Ripples', messages_previous_set_path, method: :post %> |
+<%= link_to 'Next 10 Ripples', messages_next_set_path, method: :post %> |
+<%= link_to 'Oldest', messages_oldest_path, method: :post %> |
+<%= link_to 'New Ripple', new_message_path %>
+
+

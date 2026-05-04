@@ -1,0 +1,107 @@
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+ padding: 0.354em, 0.5em;
+ border-radius: 0.354em;
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+table {width: 100% ;table-layout:fixed}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {overflow: hidden;
+text-align: center;
+white-space: nowrap;
+  padding: 0 5px 7px;
+}
+
+#putonleft{text-align: left;}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px -7px 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+label {
+  display: block;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+header.main{text-align:center;
+@media (min-width: 30em){
+text-align:left;}
+background: #282;
+margin: 0;
+h1{display: none;}}
+
+
+
+
+#paraFormat { color: #f2f2f2; background: #ff4a4a; font-size: 12px; line-height: 12px; font-weight: 700; margin: 0 5px 24px;  padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; }
+
