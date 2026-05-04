@@ -1,0 +1,23 @@
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm"><br>
+      <h2 id="welcome">{{msg}}</h2>
+
+      <form ng-submit="mctrl.submit()" name="myForm" class="form-group" >
+        <div ng-repeat="(i, p) in mctrl.resistor track by $index">
+          <span>Band {{i+1}}:&nbsp&nbsp</span>
+          <select class="form-control" ng-model="mctrl.resistor[i]" ng-options="x for x in mctrl.staticOp"></select>
+
+          <br></br>
+        </div>
+        <input type="submit" id ="submitNow" value="Calculate resistance" class="btn btn-primary">
+      </form>
+
+      <br>
+      <h4 id ="finalResult">{{mctrl.message}}</h4>
+      <br>
+    </div>
+  </div>
+</div>

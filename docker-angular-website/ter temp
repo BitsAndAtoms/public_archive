@@ -1,0 +1,30 @@
+* [33mcdb5f58[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m added includes files
+* [33m1dc9845[m changed directory structure again
+* [33mbca42b5[m changed the location of JenkinsFile
+* [33m6d74cca[m modified jenkinsfile to run with new file structure
+* [33m3aeb977[m cleaning up by removing unwanted files and folders from parent
+[31m|[m * [33md147680[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtemp[m[33m)[m rolled back changes because of issues
+[31m|[m[31m/[m  
+* [33m556b1b8[m added functionality to calculate resistance
+* [33ma267137[m Tried to use a spinner box but didn't work so
+* [33m9896669[m Added some code for the resistor application
+* [33m81c6be5[m  Jenkinsfile not works with dockerfile
+* [33m93d19eb[m jenkinsfile further modified
+* [33ma3a1b28[m new jenkinsfile added
+* [33m91133c1[m new jenkinsfile added
+* [33mf6c3a12[m modified jenkinsfile
+* [33m056a463[m modified jenkins file
+* [33mf486d30[m Jenkinsfile updated with e2e test stage
+* [33m46fe35f[m Modified the dockerfile so that it navigates to folder with main.html
+* [33m04035d0[m Dockerfile now works with mount and files can be edited on the go
+* [33m512eb93[m finally made dockerfile work
+* [33m51419df[m modified e2e test stub so that it fails
+* [33m60e25b8[m modified unit test such that it passes after Jenkins was able to detect failing test.
+* [33mce025a3[m I have modified mainController.js so that the unit test fails after building it in jenkins
+* [33m0beef94[m the stubbed application works along with its unit test and protractor e2e test The main and hello files have both been changed. Instead of project3 we have now used project2.
+* [33m229d86c[m the application stub is constructed without unit test
+* [33maa492ca[m added project3 files to build a stub appli
+* [33m11438dd[m added a new file cobolCowboys
+* [33m0207c2e[m contributors.txt created online with Bitbucket
+* [33ma042511[m README.md edited online with Bitbucket
+* [33m1956931[m Initial commit

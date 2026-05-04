@@ -1,0 +1,12 @@
+
+.container{
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  border-width: 1px;
+}
+
+
+.form-control{width:50%;
+display:inline-block;
+}
