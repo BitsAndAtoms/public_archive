@@ -13341,7 +13341,7 @@ __metadata:
     query-string: "npm:7.1.3"
     rate-limiter-flexible: "npm:7.4.0"
     raw-body: "npm:3.0.2"
-    samlify: "npm:2.10.2"
+    samlify: "npm:2.13.0"
     short-uuid: "npm:5.2.0"
     source-map-support: "npm:0.5.21"
     sqlite3: "npm:5.1.6"
@@ -20998,6 +20998,13 @@ __metadata:
   version: 0.8.10
   resolution: "@xmldom/xmldom@npm:0.8.10"
   checksum: 10/62400bc5e0e75b90650e33a5ceeb8d94829dd11f9b260962b71a784cd014ddccec3e603fe788af9c1e839fa4648d8c521ebd80d8b752878d3a40edabc9ce7ccf
+  languageName: node
+  linkType: hard
+
+"@xmldom/xmldom@npm:^0.8.11":
+  version: 0.8.13
+  resolution: "@xmldom/xmldom@npm:0.8.13"
+  checksum: 10/f8f3d56fa91d5026885c0c5c00b07eae47647bda0d742ecbf8e51e06bb287ab30222977b20529ee15c364031606225ebca58907a8ecc76a3add6b3f10e6ddfc6
   languageName: node
   linkType: hard
 
@@ -44150,7 +44157,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-forge@npm:^1, node-forge@npm:^1.3.0":
+"node-forge@npm:^1":
   version: 1.3.1
   resolution: "node-forge@npm:1.3.1"
   checksum: 10/05bab6868633bf9ad4c3b1dd50ec501c22ffd69f556cdf169a00998ca1d03e8107a6032ba013852f202035372021b845603aeccd7dfcb58cdb7430013b3daa8d
@@ -52368,22 +52375,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"samlify@npm:2.10.2":
-  version: 2.10.2
-  resolution: "samlify@npm:2.10.2"
+"samlify@npm:2.13.0":
+  version: 2.13.0
+  resolution: "samlify@npm:2.13.0"
   dependencies:
     "@authenio/xml-encryption": "npm:^2.0.2"
-    "@xmldom/xmldom": "npm:^0.8.6"
-    camelcase: "npm:^6.2.0"
-    node-forge: "npm:^1.3.0"
+    "@xmldom/xmldom": "npm:^0.8.11"
     node-rsa: "npm:^1.1.1"
-    pako: "npm:^1.0.10"
-    uuid: "npm:^8.3.2"
     xml: "npm:^1.0.1"
     xml-crypto: "npm:^6.1.2"
     xml-escape: "npm:^1.1.0"
-    xpath: "npm:^0.0.32"
-  checksum: 10/2f46e2b172fd43c3c63ad18e9a715e6cbfaf4a781ef8f6b2f7f42c3a3998ae7e07fc41a3d24a5f54f88e716535b3a8e0c2953a3788fef0430762b29e8f8b9ffe
+    xpath: "npm:^0.0.34"
+  checksum: 10/000195be845d9979922a803cf198a86bf9a7e3f4f3db6e5fcbe70a8d2fb73ae04809a23df262e2c300c712b80a0abb4b527a84d61331948bfa616d28b1e5f76d
   languageName: node
   linkType: hard
 
@@ -60626,7 +60629,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xpath@npm:0.0.32, xpath@npm:^0.0.32":
+"xpath@npm:0.0.32":
   version: 0.0.32
   resolution: "xpath@npm:0.0.32"
   checksum: 10/9d8be7adde4500e9ee96db963838269021f89ef1ad222fdfd41b7266336e851a38416b4a710c194dcf9eb35cf58ad11e023e5951e919151b76ffcd6eb3b2cbf4
@@ -60637,6 +60640,13 @@ __metadata:
   version: 0.0.33
   resolution: "xpath@npm:0.0.33"
   checksum: 10/09c539661cafc0d75bb48d13fee7ce6e7593d88f4387c401a3b15d46d543e81f46680be5c6ecf868c11f6090ee67ea78e0c327c4e0ffceb2969308a2d1e238bb
+  languageName: node
+  linkType: hard
+
+"xpath@npm:^0.0.34":
+  version: 0.0.34
+  resolution: "xpath@npm:0.0.34"
+  checksum: 10/77ce03c4494dab97b70fa443761c35a6bd484538a449714b981387a532a6eb22e245b29164f5d8a4a82f4f3cfd71d27ba71d09ed2b6fe933654585c6e46c0a25
   languageName: node
   linkType: hard
 
