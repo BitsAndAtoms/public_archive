@@ -1,2 +1,2 @@
 responder
-starlette==0.8
+starlette==1.0.1
