@@ -12771,7 +12771,7 @@ __metadata:
     styled-system: "npm:5.1.5"
     taboverride: "npm:4.0.3"
     tesseract.js: "npm:6.0.1"
-    tinymce: "npm:6.8.5"
+    tinymce: "npm:7.9.3"
     ts-jest: "npm:29.4.1"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.8.3"
@@ -56461,10 +56461,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinymce@npm:6.8.5":
-  version: 6.8.5
-  resolution: "tinymce@npm:6.8.5"
-  checksum: 10/ec3437ab3c3a60412466e632edb64ac1f05b205960cc82548bb199843c0b2bc330f2441f642eac60248c6819e813d2f4423768cd36cc56a59474515742abf75a
+"tinymce@npm:7.9.3":
+  version: 7.9.3
+  resolution: "tinymce@npm:7.9.3"
+  checksum: 10/a0db3c631cbefd50d49254f0252cf928bfdda2a34f9646fb331d0910ad30cc09f32f812fdad9334026a76b3f2db7b027b537bf6a627cae9c3e1bd4a919cb6c6b
   languageName: node
   linkType: hard
 
