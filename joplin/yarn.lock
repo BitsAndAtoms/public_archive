@@ -27664,9 +27664,9 @@ __metadata:
   linkType: hard
 
 "d3-color@npm:1 - 3, d3-color@npm:3":
-  version: 3.0.1
-  resolution: "d3-color@npm:3.0.1"
-  checksum: 10/665a9862ce3e684c18d77fd4ff9899705b949aa0f0a07753e037ff5c9b57abfc264d3eba70aaeafa1defd5f61579c8499f0786718780c1b959bcf3400c8e6ad5
+  version: 3.1.0
+  resolution: "d3-color@npm:3.1.0"
+  checksum: 10/536ba05bfd9f4fcd6fa289b5974f5c846b21d186875684637e22bf6855e6aba93e24a2eb3712985c6af3f502fbbfa03708edb72f58142f626241a8a17258e545
   languageName: node
   linkType: hard
 
